@@ -1,6 +1,6 @@
 # 📈 Speculate in Order, Diversify in Disorder
 
-📄 **Final report:** [Messina_Florio.pdf](Messina_Florio.pdf)
+📄 **Final report:** [Florio_Messina.pdf](Florio_Messina.pdf)
 
 A reproducible implementation of a rolling Shannon-entropy algorithm for dynamic top-10 equity allocation. The project classifies market conditions as **Bullish**, **Neutral**, or **Bearish** and uses each regime to control the concentration allowed in a long-only mean-variance portfolio.
 
