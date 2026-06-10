@@ -1,39 +1,51 @@
-# Python and notebooks
+# Python
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 .venv/
 venv/
 
-# Local-only data formats not used by the submitted notebook
-*.h5
+# Jupyter runtime and checkpoints
+.ipynb_checkpoints/
+.jupyter_runtime/
+.ipython/
 
-# Local assistants, prompts, drafts, and workflow notes
-.claude/
-CLAUDE.md
-prompt.txt
-workflow.md
-possibili domande.*
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Local build/helper workspace.
-# The submitted notebook is self-contained and does not need these scripts.
-progetto/tmp/
-progetto/output/
-progetto/report.pdf
+# Temporary and editor files
+*.log
+*.tmp
+*.bak
+~$*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
-# LaTeX build files
+# Local working copies and scratch files outside the final package
+/.claude/
+/DACAPO/
+/FINALE/
+/progetto/
+/CLAUDE.md
+/entropy.discretized.ipynb
+/possibili domande.*
+/prompt.txt
+/slsqp_iteration_audit.py
+/workflow.md
+
+# LaTeX intermediate files (the final PDF remains tracked)
 *.aux
 *.bbl
 *.bcf
 *.blg
 *.fdb_latexmk
 *.fls
-*.log
 *.out
 *.run.xml
 *.synctex.gz
 *.toc
 
-# OS/editor
-.DS_Store
-Thumbs.db
+# The generated outputs/ directory is intentionally tracked.

@@ -1,0 +1,11 @@
+State,Stock,Phase,Cap,RollingMean,Weight,SolverSuccess,SolverMessage
+State 1,A,Bullish,0.6000000000000001,0.007,0.6000000000000009,True,Optimization terminated successfully
+State 1,B,Bullish,0.6000000000000001,0.001874999999999999,0.0,True,Optimization terminated successfully
+State 1,C,Bullish,0.6000000000000001,0.00625,0.39999999999999913,True,Optimization terminated successfully
+State 1,D,Bullish,0.6000000000000001,-0.002125,0.0,True,Optimization terminated successfully
+State 1,E,Bullish,0.6000000000000001,0.0035,0.0,True,Optimization terminated successfully
+State 2,A,Neutral,0.30000000000000004,0.007,0.3000000000000001,True,Optimization terminated successfully
+State 2,B,Neutral,0.30000000000000004,0.001874999999999999,0.1000000000000004,True,Optimization terminated successfully
+State 2,C,Neutral,0.30000000000000004,0.00625,0.2999999999999999,True,Optimization terminated successfully
+State 2,D,Neutral,0.30000000000000004,-0.002125,0.0,True,Optimization terminated successfully
+State 2,E,Neutral,0.30000000000000004,0.0035,0.2999999999999997,True,Optimization terminated successfully
