@@ -46,7 +46,7 @@ The 10% Bearish cap implies an equal-weight allocation across the ten active sto
 ├── outputs/                             # Generated tables and diagnostics
 │   ├── figures/                         # Generated visualizations
 │   └── README.md                        # Output data dictionary
-├── Messina_Florio.pdf                   # Final 32-page report
+├── Florio_Messina.pdf                   # Final 32-page report
 ├── unified_entropy_portfolio.ipynb      # Complete executable analysis
 ├── requirements.txt                     # Python dependencies
 └── README.md
